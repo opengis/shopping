@@ -1,0 +1,1033 @@
+/* 首页样式文件 */
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 首页专有的模块 main 模块 start */
+.main {
+  height: 455px;
+  margin-top: 10px;
+  margin-left: 219px;
+}
+
+/* focus 焦点图 */
+.focus {
+  float: left;
+  width: 721px;
+  height: 455px;
+}
+
+.focus img {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* newsflash 快报 */
+.newsflash {
+  z-index: 999;
+  float: right;
+  width: 250px;
+  height: 455px;
+}
+
+/* news 新闻模块 */
+.news {
+  height: 165px;
+  border: 1px solid #e8e8e7;
+}
+
+.news dl {
+  padding: 5px 15px 0;
+}
+
+.news dl dt {
+  font-size: 14px;
+  line-height: 31px;
+  color: #333333;
+  border-bottom: 1px dotted #e8e8e7;
+}
+
+.news dl dd {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.news dl dt a {
+  float: right;
+  font-size: 12px;
+}
+
+.news dl dt a::after {
+  content: '\ef0d';
+  font-family: 'icomoon';
+}
+
+.news dl dd {
+  line-height: 24px;
+  color: #e1251b;
+}
+
+.news dl dd span {
+  padding: 0 5px;
+  background-color: rgba(225, 37, 27, .08);
+}
+
+/* lifeservice 生活模块 */
+.lifeservice {
+  height: 209px;
+  border: 1px solid #e8e8e7;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+.lifeservice ul li {
+  float: left;
+  width: 62px;
+  height: 70px;
+  border: 1px solid #e8e8e7;
+  border-top: 0;
+  border-left: 0;
+  text-align: center;
+}
+
+.lifeservice ul li:nth-child(4n) {
+  border-right: 0;
+}
+
+.lifeservice ul li em {
+  display: inline-block;
+  height: 24px;
+  margin-top: 13px;
+}
+
+/* 生活模块 小图标 */
+/* 话费 */
+.lifeservice ul li .phone_bill {
+  background: url('../img/icons.png') no-repeat -17px -16px;
+  width: 24px;
+}
+
+/* 机票 */
+.lifeservice ul li .ticket {
+  background: url('../img/icons.png') no-repeat -78px -16px;
+  width: 26px;
+}
+
+/* 电影票 */
+.lifeservice ul li .movie_tickets {
+  background: url('../img/icons.png') no-repeat -141px -16px;
+  width: 24px;
+}
+
+/* 游戏 */
+.lifeservice ul li .game {
+  background: url('../img/icons.png') no-repeat -206px -16px;
+  width: 26px;
+}
+
+/* 彩票 */
+.lifeservice ul li .lottery {
+  background: url('../img/icons.png') no-repeat -17px -88px;
+  width: 24px;
+}
+
+/* 加油卡 */
+.lifeservice ul li .gas_cards {
+  background: url('../img/icons.png') no-repeat -78px -88px;
+  width: 26px;
+}
+
+/* 酒店 */
+.lifeservice ul li .hotel {
+  background: url('../img/icons.png') no-repeat -141px -88px;
+  width: 24px;
+}
+
+/* 火车票 */
+.lifeservice ul li .train {
+  background: url('../img/icons.png') no-repeat -206px -88px;
+  width: 26px;
+}
+
+/* 众筹 */
+.lifeservice ul li .crowdfunding {
+  background: url('../img/icons.png') no-repeat -17px -159px;
+  width: 24px;
+}
+
+/* 理财 */
+.lifeservice ul li .financial {
+  background: url('../img/icons.png') no-repeat -78px -159px;
+  width: 26px;
+}
+
+/* 礼品卡 */
+.lifeservice ul li .gift_cards {
+  background: url('../img/icons.png') no-repeat -141px -159px;
+  width: 24px;
+}
+
+/* 白条 */
+.lifeservice ul li .ious {
+  background: url('../img/icons.png') no-repeat -206px -159px;
+  width: 26px;
+}
+
+/* bargain 特价商品模块 */
+.bargain img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* 首页专有的模块 main 模块 end */
+
+/* 推荐模块 start */
+.recom {
+  height: 163px;
+  margin-top: 11px;
+}
+
+.recom_hd,
+.recom_bd {
+  float: left;
+}
+
+.recom_hd {
+  width: 209px;
+  height: 163px;
+  background-color: #5c5251;
+  text-align: center;
+}
+
+.recom_hd img {
+  width: 57px;
+  height: 57px;
+  margin: 31px 0 10px;
+}
+
+.recom_hd h2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #fff;
+}
+
+.recom_bd {
+  width: 991px;
+  height: 163px;
+  padding-left: 3px;
+  background-color: #ebebeb;
+}
+
+.recom_bd div {
+  position: relative;
+  float: left;
+  width: 247px;
+  height: 143px;
+  margin-top: 10px;
+  border-right: 1px solid #dddddd;
+}
+
+.recom_bd div:last-child {
+  border: 0;
+}
+
+.recom_bd div:nth-child(1) {
+  padding-left: 19px;
+}
+
+.recom_bd div:nth-child(2) {
+  padding-left: 22px;
+}
+
+.recom_bd div:nth-child(-n+4) {
+  padding-left: 34px;
+}
+
+.recom_bd div img {
+  position: absolute;
+}
+
+/* 镂空子弹头 */
+.recom_bd div .bullet {
+  top: 15px;
+  right: 33px;
+}
+
+/* 绸缎 */
+.recom_bd div .cloth {
+  top: 19px;
+  right: 22px;
+}
+
+/* 蓝色体恤 */
+.recom_bd div .shirt {
+  top: 15px;
+  right: 34px;
+}
+
+/* 大金表 */
+.recom_bd div .wristwatch {
+  top: 10px;
+  right: 39px;
+}
+
+.recom_bd div dl {
+  float: left;
+  line-height: 21px;
+}
+
+.recom_bd div dl dt {
+  margin-top: 12px;
+  font-size: 16px;
+  color: #333333;
+}
+
+/* 蓝色背景文本 */
+.text_bgc_blue {
+  height: 18px;
+  padding: 0 2px;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #00a0e8;
+}
+
+/* 绿色背景文本 */
+.text_bgc_green {
+  height: 18px;
+  padding: 0 2px;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #5fb200;
+}
+
+/* 红色背景文本 */
+.text_bgc_red {
+  height: 18px;
+  padding: 0 2px;
+  margin-top: 11px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  background-color: #e2162f;
+}
+
+/* 绿色胶囊按钮 */
+.green_capsule {
+  height: 18px;
+  padding: 0 15px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #5fb200;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+/* 红色胶囊按钮 */
+.red_capsule {
+  height: 18px;
+  padding: 0 15px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #e2162f;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+/* 蓝色胶囊按钮 */
+.blue_capsule {
+  height: 18px;
+  padding: 0 15px;
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  background-color: #0085fb;
+  border-radius: 18px;
+  -webkit-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -o-border-radius: 18px;
+}
+
+/* 推荐模块 end */
+
+
+/* like 猜你喜欢模块 start */
+.like {
+  height: 266px;
+  margin-top: 26px;
+}
+
+.like_hd {
+  height: 33px;
+}
+
+.like_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.like_hd .handoff {
+  float: right;
+}
+
+.handoff a {
+  display: inline-block;
+  height: 33px;
+  line-height: 33px;
+}
+
+.handoff a::after {
+  display: inline-block;
+  height: 33px;
+  padding: 0 21px 0 9px;
+  line-height: 33px;
+  content: '\e9f7';
+  font-size: 16px;
+  font-family: 'icomoon';
+  vertical-align: middle;
+}
+
+
+.like_bd {
+  position: relative;
+  height: 233px;
+  border: solid 1px #ededed;
+}
+
+.like_bd ul li {
+  position: relative;
+  top: 161px;
+  left: 0;
+  float: left;
+  width: 199.5px;
+  height: 62px;
+  border-right: 1px solid #ededed;
+}
+
+.like_bd ul li:last-child {
+  border: 0;
+}
+
+.like_bd ul li p,
+.like_bd ul li span {
+  padding: 0 36px;
+}
+
+.like_bd ul li span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #df3033;
+}
+
+.like_bd ul li span i {
+  font-size: 14px;
+}
+
+.like_bd img {
+  position: absolute;
+  /*过度属性all代表全部属性1s代表过度的时间*/
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.like_bd img:hover {
+  /*transform:;
+  scale放大的属性,括号里面的值代表放大的倍数*/
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+
+/* 粉色包包 */
+.like_bd .pink_pocket {
+  top: 14px;
+  left: 20px;
+}
+
+/* 大黑锅 */
+.like_bd .wok {
+  top: 27px;
+  left: 231px;
+}
+
+/* 可能是雨伞 */
+.like_bd .umbrella {
+  top: 22px;
+  left: 484px;
+}
+
+/* 电灯泡  */
+.like_bd .light_bulb {
+  top: 51px;
+  right: 433px;
+}
+
+/* 三星手机 */
+.like_bd .samsung {
+  top: 21px;
+  right: 238px;
+}
+
+/* 精华露 */
+.like_bd .extract {
+  top: 22px;
+  right: 64px;
+}
+
+/* like 猜你喜欢模块 end */
+
+/* cz_fun 传智播客 有趣区 start */
+.cz_fun {
+  height: 434px;
+  margin-top: 14px;
+}
+
+.cz_fun_hd {
+  height: 27px;
+  background-color: #fff;
+}
+
+.cz_fun_hd h3 {
+  font-weight: 400;
+  font-size: 18px;
+  color: #333;
+}
+
+.cz_fun_bd {
+  height: 407px;
+  border: solid 1px #ededed;
+}
+
+.good_book,
+.good_stuff,
+.brand_street,
+.brand {
+  float: left;
+}
+
+/* 好书 */
+.cz_fun_bd .good_book {
+  position: relative;
+  width: 404px;
+  height: 405px;
+  background-color: #b8bddd;
+}
+
+.good_book img {
+  position: absolute;
+  right: 54px;
+  bottom: 31px;
+}
+
+.good_book dl {
+  position: absolute;
+  top: 24px;
+  left: 22px;
+  color: #3b468d;
+}
+
+.good_book dl dt {
+  font-size: 18px;
+}
+
+.good_book dl dd {
+  font-size: 16px;
+}
+
+/* 好东西 */
+.cz_fun_bd .good_stuff {
+  width: 227px;
+  height: 405px;
+}
+
+.good_stuff dl dt {
+  display: block;
+  height: 40px;
+  padding: 0 18px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+.good_stuff dl dt::after {
+  display: block;
+  content: '';
+  width: 191px;
+  border-bottom: 1px dashed #ededed;
+}
+
+.good_stuff dl dd {
+  position: relative;
+}
+
+.good_stuff dl dd img {
+  position: absolute;
+}
+
+.good_stuff div {
+  color: #333;
+}
+
+.good_stuff dl dd:nth-child(2) {
+  height: 207px;
+  border-bottom: 1px solid #ededed;
+}
+
+/* 达人推荐 */
+.good_stuff dl dd:nth-child(2) div {
+  position: absolute;
+  top: 68px;
+  left: 8px;
+  width: 97px;
+  height: 64px;
+}
+
+.good_stuff dl dd:nth-child(2) img {
+  top: 28px;
+  right: 0;
+}
+
+/* 发现好物 */
+.good_stuff dl dd:nth-child(3) div {
+  position: absolute;
+  top: 50px;
+  left: 8px;
+  width: 97px;
+  height: 63px;
+}
+
+.good_stuff dl dd:nth-child(3) img {
+  top: 12px;
+  right: 0;
+}
+
+/* 品牌街 */
+.cz_fun_bd .brand_street {
+  width: 405px;
+  height: 405px;
+  background-color: #f7f7f7;
+  border-left: solid 1px #ededed;
+  border-right: solid 1px #ededed;
+}
+
+.brand_street dl dt {
+  display: block;
+  height: 40px;
+  padding: 0 20px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  color: #333333;
+}
+
+.brand_street dl dd {
+  position: relative;
+}
+
+.brand_street dl dd div {
+  position: absolute;
+  color: #333;
+}
+
+.brand_street dl dd img {
+  position: absolute;
+}
+
+.brand_street dl dt::after {
+  display: block;
+  content: '';
+  width: 365px;
+  border-bottom: 1px dashed #ededed;
+}
+
+.brand_street dl dd:nth-child(2) {
+  height: 207px;
+  border-bottom: 1px solid #ededed;
+}
+
+.brand_street dl dd:nth-child(2) div {
+  top: 73px;
+  left: 53px;
+  width: 82px;
+  height: 64px;
+}
+
+.brand_street dl dd:nth-child(2) img {
+  top: 33px;
+  right: 0;
+}
+
+.brand_street dl dd:nth-child(3) {
+  height: 158px;
+}
+
+.brand_street dl dd ul li {
+  position: relative;
+  float: left;
+  width: 201.5px;
+  height: 158px;
+  border-right: 1px solid #ededed;
+}
+
+.brand_street dl dd ul li img {
+  position: absolute;
+}
+
+.brand_street dl dd ul li div {
+  position: absolute;
+}
+
+.brand_street dl dd ul li div:first-child {
+  top: 50px;
+  left: 12px;
+  width: 67px;
+  height: 63px;
+}
+
+.brand_street dl dd ul li div:last-child {
+  top: 50px;
+  left: 21px;
+  width: 66px;
+  height: 63px;
+}
+
+.brand_street dl dd ul li img:first-child {
+  top: 27px;
+  right: 0;
+}
+
+.brand_street dl dd ul li img:last-child {
+  top: 22px;
+  right: 0;
+}
+
+.brand_street dl dd ul li:last-child {
+  border: 0;
+}
+
+.h3_fontsize_16 {
+  font-size: 16px;
+  line-height: 31px;
+  color: #333333;
+}
+
+.p_fontsize_12 {
+  color: #333333;
+}
+
+.span_red {
+  font-size: 12px;
+  color: #e60012;
+}
+
+/* 品牌 */
+.cz_fun_bd .brand {
+  position: relative;
+  width: 162px;
+  padding-left: 10px;
+  /* height: 405px; */
+}
+
+.brand ul li {
+  position: relative;
+  float: left;
+}
+
+.brand ul li a {
+  display: block;
+  width: 76px;
+  height: 58px;
+  z-index: 1;
+}
+
+.brand img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* cz_fun 传智播客 有趣区 end */
+
+/* floor 楼层区域 start */
+
+/* 1楼 家用电器楼层 */
+.jiadian,
+.shouji,
+.computer {
+  margin-top: 28px;
+}
+
+.box_hd {
+  height: 30px;
+  line-height: 21px;
+  /* background-color: pink; */
+  border-bottom: 2px solid #c81623;
+}
+
+.box_hd h3 {
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
+  color: #c81623;
+}
+
+.tab_list {
+  float: right;
+}
+
+.tab_list ul li {
+  float: left;
+}
+
+.tab_list ul li::after {
+  content: '';
+  display: inline-block;
+  height: 12px;
+  width: 1px;
+  background-color: #999;
+  margin: 0 15px;
+}
+
+.tab_list ul li:last-child::after {
+  display: none;
+}
+
+
+.box_bd {
+  height: 360px;
+}
+
+.tab_list_item>div {
+  float: left;
+  height: 360px;
+}
+
+.col_209 {
+  width: 209px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.col_209 img {
+  width: 152px;
+  margin-top: 26px;
+}
+
+.col_209 ul li {
+  float: left;
+  width: 86px;
+  height: 33px;
+  margin-right: 12px;
+  line-height: 33px;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_209 ul {
+  padding-left: 13px;
+}
+
+.col_329 {
+  width: 329px;
+}
+
+.col_329 img {
+  width: 100%;
+}
+
+.col_220 {
+  width: 220px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_220 ul li {
+  position: relative;
+}
+
+.col_220 ul li:first-child {
+  display: block;
+  width: 219px;
+  height: 181px;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_220 ul li:last-child {
+  display: block;
+  width: 219px;
+  height: 178px;
+}
+
+.col_220 ul li:first-child img {
+  position: absolute;
+  width: 200px;
+  right: 0;
+  bottom: 0;
+}
+
+.col_220 ul li:last-child img {
+  position: absolute;
+  width: 202px;
+  right: 0;
+  bottom: 0;
+}
+
+.col_221_1 {
+  position: relative;
+  width: 221px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_221_1 img {
+  position: absolute;
+  bottom: 0;
+  right: 22px;
+  width: 175px;
+}
+
+.col_221_2 {
+  width: 221px;
+  border-right: 1px solid #ededed;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_221_2 ul li {
+  position: relative;
+}
+
+.col_221_2 ul li:first-child {
+  width: 220px;
+  height: 181px;
+  border-bottom: 1px solid #ededed;
+}
+
+.col_221_2 ul li:first-child img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 202px;
+}
+
+.col_221_2 ul li:last-child {
+  width: 220px;
+  height: 178px;
+}
+
+.col_221_2 ul li:last-child img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 208px;
+}
+
+/* 家电品牌 */
+.jiadian_brand {
+  position: relative;
+  height: 65px;
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+
+.jiadian_brand ul li {
+  float: left;
+}
+
+.jiadian_brand ul li a {
+  display: inline-block;
+  width: 120px;
+  height: 65px;
+  z-index: 1;
+}
+
+.jiadian_brand img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 65px;
+  z-index: -1;
+}
+
+/* 手机通讯品牌 */
+.shouji_brand {
+  position: relative;
+  height: 66px;
+  margin-top: 20px;
+}
+
+.shouji_brand ul li {
+  float: left;
+}
+
+.shouji_brand ul li a {
+  display: inline-block;
+  width: 120px;
+  height: 66px;
+  z-index: 1;
+}
+
+.shouji_brand img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 66px;
+  z-index: -1;
+}
+
+/* 电脑办公品牌 */
+.computer_brand {
+  position: relative;
+  height: 88px;
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+
+.computer_brand ul li {
+  float: left;
+}
+
+.computer_brand ul li a {
+  display: inline-block;
+  width: 120px;
+  height: 88px;
+  z-index: 1;
+}
+
+.computer_brand img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 88px;
+  z-index: -1;
+}
+
+/* floor 楼层区域 end */

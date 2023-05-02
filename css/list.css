@@ -1,0 +1,160 @@
+/* 列表页独有的css */
+
+/* header 头部模块 start */
+/* 列表页的秒杀模块 sk */
+.sk {
+  position: absolute;
+  top: 43px;
+  left: 185px;
+  padding: 3px 0 0 13px;
+  border-left: 1px solid #c81523;
+}
+
+/* header 头部模块 end */
+
+/* nav 导航模块 start */
+
+.sk_list,
+.sk_con {
+  float: left;
+}
+
+.sk_list ul li {
+  float: left;
+}
+
+.sk_list ul li a {
+  display: block;
+  font-weight: 700;
+  padding: 0 28px;
+  font-size: 16px;
+  line-height: 43px;
+  color: #000000;
+}
+
+.sk_con ul li {
+  float: left;
+}
+
+.sk_con ul li a {
+  display: block;
+  padding: 0 22.5px;
+  font-size: 14px;
+  line-height: 45px;
+}
+
+.sk_con ul li:last-child a::after {
+  content: '\f373';
+  font-family: 'icomoon';
+}
+
+/* nav 导航模块 end */
+
+
+/* sk_container 列表页主体 start */
+.sk_container .sk_hd img {
+  width: 100%;
+}
+
+.sk_hd {
+  position: relative;
+}
+
+.sk_hd .tit {
+  position: absolute;
+  top: 27px;
+  left: 535px;
+  width: 140px;
+  height: 37px;
+}
+
+.sk_hd .tit img {
+  float: left;
+  width: 37px;
+  height: 37px;
+}
+
+.sk_hd .tit h3 {
+  float: left;
+  font-size: 24px;
+  color: #d81e06;
+}
+
+.sk_bd ul {
+  padding-top: 27px;
+}
+
+.sk_bd ul li {
+  position: relative;
+  float: left;
+  width: 291px;
+  height: 458px;
+  margin-right: 12px;
+  /* background-color: orange; */
+  border: solid 1px transparent;
+  text-align: center;
+}
+
+.sk_bd ul li:nth-child(4n) {
+  margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+  border: solid 1px #e12228;
+}
+
+.sk_bd ul li img {
+  width: 200px;
+  padding-top: 20px;
+}
+
+.sk_bd ul li h3 {
+  margin: 6px 0;
+  font-size: 21px;
+}
+
+.sk_bd ul li p {
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+.sk_bd ul li span {
+  display: block;
+  margin: 6px 0 25px 0;
+}
+
+.sk_bd ul li em {
+  padding: 0 5px;
+}
+
+.sk_bd .bar {
+  display: inline-block;
+  width: 125px;
+  height: 16px;
+  padding: 1px;
+  border: 1px solid #ed282e;
+  border-radius: 8px;
+  vertical-align: text-top;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.sk_bd .bar .bar_in {
+  width: 75%;
+  height: 100%;
+  background-color: #ed282e;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  transition: width 0.5s;
+}
+
+.sk_bd .bar:hover .bar_in {
+  width: 100%;
+}
+
+/* sk_container 列表页主体 end */
